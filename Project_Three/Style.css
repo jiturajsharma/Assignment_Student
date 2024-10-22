@@ -1,0 +1,58 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Alice Blue Background */
+    margin: 0;
+    padding: 20px;
+    color: #333; /* Text color */
+}
+
+/* Styling the main content area */
+.content {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    background-color: #ffffff; /* White background */
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 2px solid #ffa07a; /* Light Salmon border */
+}
+
+/* Styling for the header and paragraph */
+h1 {
+    font-size: 2.5em;
+    color: #2e8b57; /* Sea Green color */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+/* Styling for the image */
+.image-container {
+    display: inline-block;
+    margin: 20px 0;
+}
+
+/* Adding a caption for the image */
+.caption {
+    font-style: italic;
+    color: #778899; /* Light Slate Gray color */
+    margin-top: 10px;
+}
+
+/* Adding styles for a hover effect on the image */
+.image-container img {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
